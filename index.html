@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Soni Pest Control - Professional Pest Control Services</title>
+<meta name="description" content="Soni Pest Control is Panchkula's trusted pest control company offering termite, rodent, cockroach, mosquito, and bed bug treatments. Safe, certified, and guaranteed."/>
+<meta name="keywords" content="pest control, termite treatment, rodent control, cockroach treatment, bed bug removal, mosquito control, Soni Pest Control"/>
+<meta name="robots" content="index,follow"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --green:#2d8c3c;--green-dark:#1a5c26;--green-light:#3baa4e;--green-pale:#e8f5eb;
+  --orange:#f6821f;--orange-dark:#d96d0a;--dark:#0f1a0f;--dark2:#182318;--dark3:#243224;
+  --text:#333c33;--text-light:#6b7a6b;--white:#ffffff;--off-white:#f5f9f5;
+  --border:#dce8dc;--shadow:0 4px 24px rgba(0,0,0,0.10);--shadow-lg:0 12px 48px rgba(0,0,0,0.18);
+  --radius:12px;--radius-sm:8px;--tr:0.3s cubic-bezier(0.4,0,0.2,1)
+}
+html{scroll-behavior:smooth}
+body{font-family:'Nunito Sans',sans-serif;color:var(--text);background:var(--white);line-height:1.7;overflow-x:hidden}
+h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;line-height:1.25}
+a{text-decoration:none;color:inherit}
+img{display:block;max-width:100%}
+ul{list-style:none}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.sp{padding:100px 0}
+.spsm{padding:70px 0}
+.badge{display:inline-block;background:var(--green-pale);color:var(--green);font-family:'Poppins',sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;padding:6px 16px;border-radius:50px;margin-bottom:14px}
+.badge-or{background:#fff3e0;color:var(--orange)}
+.stitle{font-size:clamp(28px,4vw,42px);font-weight:800;color:var(--dark);margin-bottom:16px;line-height:1.2}
+.stitle span{color:var(--green)}
+.ssub{font-size:17px;color:var(--text-light);max-width:580px}
+.tc{text-align:center}
+.tc .ssub{margin:0 auto}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:'Poppins',sans-serif;font-weight:700;font-size:15px;padding:14px 32px;border-radius:50px;border:none;cursor:pointer;transition:var(--tr);text-decoration:none}
+.btn-g{background:var(--green);color:#fff}
+.btn-g:hover{background:var(--green-dark);transform:translateY(-2px);box-shadow:0 8px 24px rgba(45,140,60,.35)}
+.btn-or{background:var(--orange);color:#fff}
+.btn-or:hover{background:var(--orange-dark);transform:translateY(-2px);box-shadow:0 8px 24px rgba(246,130,31,.35)}
+.btn-ow{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.7)}
+.btn-ow:hover{background:#fff;color:var(--green);transform:translateY(-2px)}
+.btn-og{background:transparent;color:var(--green);border:2px solid var(--green)}
+.btn-og:hover{background:var(--green);color:#fff;transform:translateY(-2px)}
+.rv{opacity:0;transform:translateY(40px);transition:opacity .7s ease,transform .7s ease}
+.rv.vis{opacity:1;transform:none}
+.rvl{opacity:0;transform:translateX(-50px);transition:opacity .7s ease,transform .7s ease}
+.rvl.vis{opacity:1;transform:none}
+.rvr{opacity:0;transform:translateX(50px);transition:opacity .7s ease,transform .7s ease}
+.rvr.vis{opacity:1;transform:none}
+
+/* EMERGENCY BAR */
+.embar{background:var(--orange);color:#fff;text-align:center;padding:10px 24px;font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;display:flex;align-items:center;justify-content:center;gap:10px}
+.embar a{color:#fff;text-decoration:underline}
+
+/* TOP BAR */
+#topbar{background:var(--dark2);padding:9px 0;font-size:13px;color:rgba(255,255,255,.75)}
+.tbi{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+#topbar a{color:rgba(255,255,255,.85);transition:color var(--tr)}
+#topbar a:hover{color:var(--orange)}
+.tbl,.tbr{display:flex;align-items:center;gap:20px}
+#topbar i{color:var(--green-light);margin-right:5px}
+
+/* NAVBAR */
+#nav{position:sticky;top:0;z-index:999;background:#fff;box-shadow:0 2px 16px rgba(0,0,0,.10);transition:box-shadow var(--tr)}
+#nav.sc{box-shadow:0 4px 32px rgba(0,0,0,.18)}
+.ni{display:flex;align-items:center;justify-content:space-between;padding:0 24px;max-width:1200px;margin:0 auto;height:72px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-ic{width:44px;height:44px;background:var(--green);border-radius:10px;display:flex;align-items:center;justify-content:center}
+.logo-ic svg{width:26px;height:26px;fill:#fff}
+.logo-t{font-family:'Poppins',sans-serif;font-weight:800;font-size:22px;color:var(--dark);line-height:1}
+.logo-t span{color:var(--green)}
+.logo-s{font-size:11px;font-weight:600;color:var(--text-light);letter-spacing:1px;text-transform:uppercase}
+.nm{display:flex;align-items:center;gap:32px}
+.nl{font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;color:var(--dark);position:relative;padding:4px 0;transition:color var(--tr)}
+.nl::after{content:'';position:absolute;bottom:-2px;left:0;width:0;height:2px;background:var(--green);transition:width var(--tr)}
+.nl:hover{color:var(--green)}
+.nl:hover::after,.nl.act::after{width:100%}
+.nct{display:flex;align-items:center;gap:12px}
+.nph{display:flex;align-items:center;gap:8px;font-family:'Poppins',sans-serif;font-weight:700;font-size:15px;color:var(--dark)}
+.nph i{color:var(--green)}
+.nph:hover{color:var(--green)}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:6px;background:none;border:none}
+.hbg span{width:26px;height:2.5px;background:var(--dark);border-radius:3px;transition:var(--tr);display:block}
+.hbg.op span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+.hbg.op span:nth-child(2){opacity:0}
+.hbg.op span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+#mm{display:none;position:fixed;top:0;right:0;width:290px;height:100vh;background:var(--dark);z-index:1100;padding:90px 32px 40px;transform:translateX(100%);transition:transform .35s cubic-bezier(.4,0,.2,1);box-shadow:-8px 0 32px rgba(0,0,0,.4);overflow-y:auto}
+#mm.op{transform:translateX(0)}
+.ml{display:block;color:#fff;font-family:'Poppins',sans-serif;font-weight:600;font-size:16px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.1);transition:color var(--tr)}
+.ml:hover{color:var(--green-light)}
+.mc{position:absolute;top:22px;right:22px;background:none;border:none;color:#fff;font-size:22px;cursor:pointer}
+#ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:1099}
+#ov.act{display:block}
+
+/* HERO */
+#hero{position:relative;min-height:100vh;background:linear-gradient(135deg,var(--dark) 0%,var(--dark2) 40%,#1c3a1c 100%);display:flex;align-items:center;overflow:hidden}
+.hbg-img{position:absolute;inset:0;z-index:0;background-image:url('hero_pest_control.png');background-size:cover;background-position:center;opacity:.22}
+.hpat{position:absolute;inset:0;z-index:0;background-image:radial-gradient(circle at 20% 80%,rgba(45,140,60,.25) 0%,transparent 50%),radial-gradient(circle at 80% 20%,rgba(246,130,31,.15) 0%,transparent 40%)}
+.hcont{position:relative;z-index:1;padding:120px 0 80px}
+.hin{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.htag{display:inline-flex;align-items:center;gap:8px;background:rgba(45,140,60,.2);border:1px solid rgba(45,140,60,.4);color:#6dd67c;font-family:'Poppins',sans-serif;font-weight:600;font-size:12px;letter-spacing:2px;text-transform:uppercase;padding:7px 16px;border-radius:50px;margin-bottom:20px}
+.htag .dot{width:7px;height:7px;background:#6dd67c;border-radius:50%;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
+.htit{font-size:clamp(36px,5.5vw,68px);font-weight:900;color:#fff;line-height:1.08;margin-bottom:22px}
+.htit .ac{color:var(--orange)}
+.htit .gr{color:#6dd67c}
+.hdesc{font-size:17px;color:rgba(255,255,255,.72);margin-bottom:36px;max-width:520px;line-height:1.8}
+.hbtns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:48px}
+.htr{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.htr-i{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.7);font-size:14px}
+.htr-i i{color:#6dd67c;font-size:16px}
+.himgbox{position:relative;border-radius:20px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.himgbox img{width:100%;height:520px;object-fit:cover}
+.hbadge{position:absolute;bottom:30px;left:-20px;background:#fff;border-radius:14px;padding:16px 20px;box-shadow:0 8px 32px rgba(0,0,0,.25);display:flex;align-items:center;gap:12px}
+.hbadge-ic{width:46px;height:46px;background:var(--green-pale);border-radius:10px;display:flex;align-items:center;justify-content:center}
+.hbadge-ic i{color:var(--green);font-size:22px}
+.hbadge-t strong{display:block;font-family:'Poppins',sans-serif;font-weight:800;font-size:20px;color:var(--dark)}
+.hbadge-t span{font-size:12px;color:var(--text-light)}
+.hbadge2{position:absolute;top:30px;right:-15px;background:var(--orange);border-radius:14px;padding:14px 18px;box-shadow:0 8px 24px rgba(246,130,31,.45);color:#fff;text-align:center}
+.hbadge2 strong{display:block;font-family:'Poppins',sans-serif;font-weight:800;font-size:22px}
+.hbadge2 span{font-size:11px;opacity:.9;font-weight:600;text-transform:uppercase;letter-spacing:1px}
+.part{position:absolute;border-radius:50%;opacity:.08;animation:fl linear infinite}
+@keyframes fl{0%{transform:translateY(0) rotate(0deg)}100%{transform:translateY(-100vh) rotate(360deg)}}
+
+/* STATS */
+#stats{background:var(--green-dark);padding:0}
+.sti{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.1)}
+.si{padding:40px 24px;text-align:center;border-right:1px solid rgba(255,255,255,.1);position:relative;overflow:hidden;transition:background var(--tr)}
+.si:last-child{border-right:none}
+.si:hover{background:rgba(255,255,255,.06)}
+.si::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:3px;height:0;background:var(--orange);transition:height .4s ease}
+.si:hover::before{height:100%}
+.sn{font-family:'Poppins',sans-serif;font-weight:900;font-size:46px;color:#fff;line-height:1;margin-bottom:6px}
+.sn .pl{color:var(--orange);font-size:36px}
+.sn .kk{color:var(--orange)}
+.sl{font-size:14px;color:rgba(255,255,255,.65);font-weight:600;text-transform:uppercase;letter-spacing:1px}
+
+/* SERVICES */
+#services{background:var(--off-white)}
+.sg{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:56px}
+.sc{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.07);transition:transform var(--tr),box-shadow var(--tr);position:relative}
+.sc:hover{transform:translateY(-8px);box-shadow:var(--shadow-lg)}
+.siw{position:relative;overflow:hidden;height:220px}
+.sim{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.sc:hover .sim{transform:scale(1.08)}
+.sov{position:absolute;inset:0;background:linear-gradient(to top,rgba(15,26,15,.75) 0%,transparent 50%)}
+.scat{position:absolute;top:16px;left:16px;background:var(--orange);color:#fff;font-family:'Poppins',sans-serif;font-weight:700;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;padding:5px 12px;border-radius:50px}
+.sbody{padding:26px 28px 30px}
+.sico{width:52px;height:52px;border-radius:12px;background:var(--green-pale);display:flex;align-items:center;justify-content:center;margin-bottom:16px;transition:background var(--tr)}
+.sc:hover .sico{background:var(--green)}
+.sico i{font-size:24px;color:var(--green);transition:color var(--tr)}
+.sc:hover .sico i{color:#fff}
+.stit{font-size:20px;font-weight:800;color:var(--dark);margin-bottom:10px}
+.sde{font-size:14px;color:var(--text-light);line-height:1.7;margin-bottom:18px}
+.slk{display:inline-flex;align-items:center;gap:6px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:var(--green);transition:gap var(--tr)}
+.slk:hover{gap:12px}
+
+/* ABOUT */
+#about{background:#fff}
+.ain{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.aimg{position:relative}
+.aimm{width:100%;height:520px;object-fit:cover;border-radius:20px;box-shadow:var(--shadow-lg)}
+.aexp{position:absolute;bottom:30px;right:-20px;background:var(--green);border-radius:18px;padding:22px 28px;text-align:center;box-shadow:0 10px 36px rgba(45,140,60,.4);color:#fff}
+.aexp strong{font-family:'Poppins',sans-serif;font-weight:900;font-size:48px;display:block;line-height:1}
+.aexp span{font-size:13px;font-weight:600;opacity:.9}
+.acrt{position:absolute;top:30px;right:-20px;background:var(--orange);border-radius:14px;padding:14px 18px;box-shadow:0 8px 24px rgba(246,130,31,.45);color:#fff;display:flex;align-items:center;gap:10px}
+.acrt i{font-size:22px}
+.acrt-t strong{display:block;font-family:'Poppins',sans-serif;font-weight:800;font-size:14px}
+.acrt-t span{font-size:11px;opacity:.85}
+.aft{display:flex;flex-direction:column;gap:20px;margin:28px 0 36px}
+.afi{display:flex;align-items:flex-start;gap:16px}
+.afic{width:50px;height:50px;min-width:50px;border-radius:12px;background:var(--green-pale);display:flex;align-items:center;justify-content:center;transition:background var(--tr)}
+.afi:hover .afic{background:var(--green)}
+.afic i{font-size:22px;color:var(--green);transition:color var(--tr)}
+.afi:hover .afic i{color:#fff}
+.aft-t h4{font-size:16px;font-weight:700;color:var(--dark);margin-bottom:4px}
+.aft-t p{font-size:14px;color:var(--text-light)}
+
+/* WHY */
+#why{background:linear-gradient(135deg,var(--dark) 0%,var(--dark3) 100%);position:relative;overflow:hidden}
+#why::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(45,140,60,.15) 0%,transparent 70%)}
+.wyin{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;position:relative;z-index:1}
+.wygr{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.wyc{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:28px 24px;transition:background var(--tr),border-color var(--tr)}
+.wyc:hover{background:rgba(255,255,255,.10);border-color:rgba(45,140,60,.4)}
+.wcn{font-family:'Poppins',sans-serif;font-weight:900;font-size:42px;color:rgba(255,255,255,.06);line-height:1;margin-bottom:-10px}
+.wyc i{font-size:30px;color:var(--green-light);margin-bottom:14px;display:block}
+.wyc h4{font-size:16px;font-weight:700;color:#fff;margin-bottom:8px}
+.wyc p{font-size:13px;color:rgba(255,255,255,.55);line-height:1.7}
+.wyst{display:flex;gap:32px;margin-top:36px;flex-wrap:wrap}
+.wyst strong{font-family:'Poppins',sans-serif;font-weight:900;font-size:36px;color:var(--orange);display:block;line-height:1}
+.wyst span{font-size:13px;color:rgba(255,255,255,.55)}
+
+/* PROCESS */
+#process{background:var(--off-white)}
+.prs{display:grid;grid-template-columns:repeat(4,1fr);margin-top:56px;position:relative}
+.prs::before{content:'';position:absolute;top:44px;left:12.5%;right:12.5%;height:2px;background:linear-gradient(to right,var(--green),var(--orange));z-index:0}
+.pr{text-align:center;position:relative;padding:0 16px}
+.prnw{position:relative;z-index:1;margin-bottom:24px}
+.prn{width:88px;height:88px;border-radius:50%;border:3px solid var(--green);background:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto;transition:background var(--tr);box-shadow:0 6px 20px rgba(45,140,60,.15)}
+.pr:nth-child(3) .prn{border-color:#f6821f}
+.pr:nth-child(4) .prn{border-color:#d96d0a}
+.pr:hover .prn{background:var(--green)}
+.pr:hover .prn i{color:#fff}
+.prn i{font-size:28px;color:var(--green);transition:color var(--tr)}
+.prl{font-family:'Poppins',sans-serif;font-weight:800;font-size:11px;color:var(--orange);text-transform:uppercase;letter-spacing:2px;margin-bottom:6px}
+.prt{font-size:18px;font-weight:700;color:var(--dark);margin-bottom:10px}
+.prd{font-size:13px;color:var(--text-light);line-height:1.7}
+
+/* PESTS */
+#pests{background:#fff}
+.pgr{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:52px}
+.pi{background:var(--off-white);border-radius:16px;padding:28px 16px;text-align:center;transition:all var(--tr);cursor:pointer;border:2px solid transparent}
+.pi:hover{background:var(--green-pale);border-color:var(--green);transform:translateY(-4px)}
+.pi i{font-size:32px;color:var(--green);margin-bottom:12px;display:block}
+.pi span{font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:var(--dark)}
+
+/* CTA */
+#cta{position:relative;overflow:hidden;background-image:url('pest_cta_bg.png');background-size:cover;background-position:center;background-attachment:fixed}
+#cta::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,26,15,.92),rgba(26,92,38,.85),rgba(15,26,15,.92))}
+.ctain{position:relative;z-index:1;text-align:center}
+.ctain h2{font-size:clamp(28px,4vw,50px);font-weight:900;color:#fff;margin-bottom:16px;line-height:1.15}
+.ctain h2 span{color:var(--orange)}
+.ctain p{font-size:18px;color:rgba(255,255,255,.75);margin-bottom:40px;max-width:560px;margin-left:auto;margin-right:auto}
+.ctabt{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+
+/* TESTIMONIALS */
+#testimonials{background:var(--off-white)}
+.tgr{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:56px}
+.tcard{background:#fff;border-radius:18px;padding:32px 28px;box-shadow:0 4px 20px rgba(0,0,0,.07);position:relative;transition:transform var(--tr),box-shadow var(--tr)}
+.tcard:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg)}
+.tcard::before{content:'"';position:absolute;top:16px;right:24px;font-size:80px;color:var(--green);opacity:.12;font-family:Georgia,serif;line-height:1}
+.tst{display:flex;gap:3px;margin-bottom:16px}
+.tst i{color:#fbbf24;font-size:16px}
+.ttxt{font-size:15px;color:var(--text-light);line-height:1.8;margin-bottom:24px;font-style:italic}
+.tau{display:flex;align-items:center;gap:14px;border-top:1px solid var(--border);padding-top:20px}
+.tav{width:50px;height:50px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Poppins',sans-serif;font-weight:800;font-size:18px;flex-shrink:0;object-fit:cover}
+.tnm strong{display:block;font-family:'Poppins',sans-serif;font-weight:700;font-size:15px;color:var(--dark)}
+.tnm span{font-size:13px;color:var(--text-light)}
+.trb{margin-left:auto;background:var(--green-pale);border-radius:8px;padding:6px 12px;text-align:center}
+.trb strong{display:block;font-family:'Poppins',sans-serif;font-weight:800;color:var(--green);font-size:18px}
+.trb span{font-size:10px;color:var(--green);text-transform:uppercase;letter-spacing:1px;font-weight:700}
+
+/* BLOG */
+#blog{background:var(--off-white)}
+.bgr{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:56px}
+.bcard{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.07);transition:transform var(--tr),box-shadow var(--tr)}
+.bcard:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg)}
+.biw{position:relative;overflow:hidden;height:200px}
+.bph{width:100%;height:200px;display:flex;align-items:center;justify-content:center;font-size:60px}
+.bpg{background:linear-gradient(135deg,#e8f5eb,#b8dfbd)}
+.bpo{background:linear-gradient(135deg,#fff3e0,#ffd09c)}
+.bpd{background:linear-gradient(135deg,#dce8dc,#a8c9ac)}
+.btag{position:absolute;top:16px;left:16px;background:var(--green);color:#fff;font-family:'Poppins',sans-serif;font-weight:700;font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:5px 12px;border-radius:50px}
+.bbody{padding:26px 28px 28px}
+.bmeta{display:flex;align-items:center;gap:16px;font-size:12px;color:var(--text-light);margin-bottom:12px}
+.bmeta i{color:var(--green);margin-right:3px}
+.btit{font-size:18px;font-weight:700;color:var(--dark);margin-bottom:10px;line-height:1.4;transition:color var(--tr)}
+.bcard:hover .btit{color:var(--green)}
+.bdesc{font-size:13px;color:var(--text-light);line-height:1.7;margin-bottom:18px}
+.blk{display:inline-flex;align-items:center;gap:6px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:var(--green);transition:gap var(--tr)}
+.blk:hover{gap:12px}
+
+/* CONTACT */
+#contact{background:#fff}
+.cin{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+.cdi{display:flex;align-items:flex-start;gap:16px;margin-bottom:20px}
+.cdic{width:48px;height:48px;min-width:48px;background:var(--green-pale);border-radius:12px;display:flex;align-items:center;justify-content:center}
+.cdic i{color:var(--green);font-size:20px}
+.cdt strong{display:block;font-family:'Poppins',sans-serif;font-weight:700;font-size:14px;color:var(--dark)}
+.cdt span{font-size:14px;color:var(--text-light)}
+.cfbox{background:var(--off-white);border-radius:22px;padding:42px 38px;border:1px solid var(--border)}
+.cfbox h4{font-size:22px;font-weight:800;color:var(--dark);margin-bottom:6px}
+.cfbox>.cp{font-size:14px;color:var(--text-light);margin-bottom:28px}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.fg{margin-bottom:18px}
+.fg label{display:block;font-family:'Poppins',sans-serif;font-weight:600;font-size:13px;color:var(--dark);margin-bottom:7px}
+.fg input,.fg select,.fg textarea{width:100%;padding:13px 16px;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-family:'Nunito Sans',sans-serif;font-size:14px;color:var(--text);background:#fff;outline:none;transition:border-color var(--tr),box-shadow var(--tr)}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(45,140,60,.12)}
+.fg textarea{resize:vertical;min-height:100px}
+.fsub{width:100%;justify-content:center}
+
+/* FOOTER */
+#footer{background:var(--dark);color:rgba(255,255,255,.65);padding-top:80px}
+.fgr{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;padding-bottom:60px;border-bottom:1px solid rgba(255,255,255,.08)}
+.fbr p{margin-top:16px;font-size:14px;line-height:1.8;max-width:280px}
+.fsoc{display:flex;gap:10px;margin-top:24px}
+.fsc{width:38px;height:38px;border-radius:10px;border:1px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.6);font-size:15px;transition:all var(--tr)}
+.fsc:hover{background:var(--green);border-color:var(--green);color:#fff;transform:translateY(-3px)}
+.fcol h5{font-family:'Poppins',sans-serif;font-weight:700;font-size:15px;color:#fff;margin-bottom:22px}
+.flks{display:flex;flex-direction:column;gap:11px}
+.flks a{font-size:14px;color:rgba(255,255,255,.55);transition:color var(--tr);display:flex;align-items:center;gap:6px}
+.flks a::before{content:'>>';color:var(--green);font-size:12px}
+.flks a:hover{color:#fff}
+.fci{display:flex;align-items:flex-start;gap:12px;margin-bottom:16px}
+.fci i{color:var(--green-light);font-size:16px;margin-top:2px;flex-shrink:0}
+.fci span{font-size:14px;color:rgba(255,255,255,.55)}
+.fbot{padding:22px 0;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.fbot p{font-size:13px}
+.fbls{display:flex;gap:24px}
+.fbls a{font-size:13px;color:rgba(255,255,255,.45);transition:color var(--tr)}
+.fbls a:hover{color:#fff}
+
+/* FAB */
+#fab{position:fixed;bottom:32px;right:32px;z-index:900;display:flex;flex-direction:column;gap:12px;align-items:flex-end}
+.fab{width:54px;height:54px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 6px 20px rgba(0,0,0,.25);transition:transform var(--tr),box-shadow var(--tr);text-decoration:none;color:#fff}
+.fab:hover{transform:scale(1.12);box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.fab-wa{background:#25d366}
+@keyframes wap{0%,100%{box-shadow:0 6px 20px rgba(37,211,102,.5)}50%{box-shadow:0 6px 20px rgba(37,211,102,0),0 0 0 14px rgba(37,211,102,.08)}}
+.fab-wa{animation:wap 2.5s ease-in-out infinite}
+.fab-cl{background:var(--green)}
+#bkt{background:var(--dark);opacity:0;pointer-events:none;transition:opacity var(--tr)}
+#bkt.sh{opacity:1;pointer-events:all}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--dark)}
+::-webkit-scrollbar-thumb{background:var(--green);border-radius:4px}
+
+
+/* =====================================================
+   RESPONSIVE — MOBILE-FIRST COMPLETE OVERHAUL
+   Breakpoints: 1280 | 1024 | 900 | 768 | 600 | 480 | 360
+   ===================================================== */
+
+/* ---------- 1280px — Large laptop ---------- */
+@media(max-width:1280px){
+  .container{padding:0 32px}
+  .ni{padding:0 32px}
+  .hin{gap:48px}
+  .ain,.wyin,.cin{gap:60px}
+  .fgr{grid-template-columns:2fr 1fr 1fr 1fr;gap:36px}
+}
+
+/* ---------- 1024px — Tablet landscape ---------- */
+@media(max-width:1024px){
+  .container{padding:0 24px}
+  .ni{padding:0 24px}
+  .sp{padding:80px 0}
+
+  /* NAV */
+  .nm{gap:20px}
+  .nl{font-size:13px}
+  .nph{font-size:13px}
+
+  /* HERO */
+  .hin{grid-template-columns:1fr 1fr;gap:36px}
+  .htit{font-size:clamp(32px,4.5vw,52px)}
+  .hdesc{font-size:15px}
+  .himgbox img{height:420px}
+  .hcont{padding:110px 0 70px}
+
+  /* STATS */
+  .sti{grid-template-columns:repeat(4,1fr)}
+  .sn{font-size:38px}
+
+  /* SERVICES */
+  .sg{grid-template-columns:repeat(2,1fr);gap:22px}
+
+  /* ABOUT / WHY / CONTACT */
+  .ain,.wyin{gap:48px}
+  .aimm{height:440px}
+  .cin{gap:48px}
+
+  /* PROCESS */
+  .prs{grid-template-columns:repeat(4,1fr)}
+
+  /* PESTS */
+  .pgr{grid-template-columns:repeat(4,1fr)}
+
+  /* TESTIMONIALS / BLOG */
+  .tgr{grid-template-columns:repeat(2,1fr)}
+  .bgr{grid-template-columns:repeat(2,1fr)}
+
+  /* FOOTER */
+  .fgr{grid-template-columns:1fr 1fr;gap:40px}
+}
+
+/* ---------- 900px — Tablet portrait ---------- */
+@media(max-width:900px){
+  .sp{padding:72px 0}
+
+  /* HERO — stack at 900 */
+  .hin{grid-template-columns:1fr}
+  .himgbox{display:none}
+  .hcont{padding:100px 0 60px}
+  .htag{font-size:11px}
+  .htit{font-size:clamp(30px,6vw,50px)}
+  .hdesc{font-size:15px;max-width:100%}
+
+  /* ABOUT */
+  .ain{grid-template-columns:1fr}
+  .aimg{max-width:500px;margin:0 auto}
+  .aimm{height:340px}
+  .aexp{right:0}
+  .acrt{right:0}
+
+  /* WHY */
+  .wyin{grid-template-columns:1fr}
+
+  /* PESTS */
+  .pgr{grid-template-columns:repeat(3,1fr)}
+
+  /* PROCESS */
+  .prs{grid-template-columns:repeat(2,1fr);gap:40px}
+  .prs::before{display:none}
+
+  /* CONTACT */
+  .cin{grid-template-columns:1fr}
+}
+
+/* ---------- 768px — Mobile ---------- */
+@media(max-width:768px){
+  .container{padding:0 18px}
+  .ni{padding:0 18px}
+  .sp{padding:60px 0}
+
+  /* EMERGENCY BAR */
+  .embar{font-size:12px;padding:8px 16px;gap:6px;flex-wrap:wrap;text-align:center}
+
+  /* TOP BAR */
+  #topbar .tbr{display:none}
+  #topbar .tbl{flex-direction:column;gap:4px;font-size:12px}
+  #topbar{padding:8px 0}
+
+  /* NAV */
+  .nm,.nct{display:none}
+  .hbg{display:flex}
+  #mm{display:block}
+  .ni{height:64px}
+  .logo-t{font-size:18px}
+  .logo-s{font-size:10px}
+  .logo-ic{width:38px;height:38px}
+
+  /* HERO */
+  .hcont{padding:90px 0 50px}
+  .htit{font-size:clamp(28px,8vw,42px);margin-bottom:16px}
+  .hdesc{font-size:14px;margin-bottom:24px}
+  .hbtns{gap:10px;margin-bottom:32px}
+  .btn{font-size:14px;padding:13px 26px}
+  .htr{gap:16px}
+  .htr-i{font-size:13px}
+
+  /* STATS */
+  .sti{grid-template-columns:repeat(2,1fr)}
+  .si{border-right:none;border-bottom:1px solid rgba(255,255,255,.1);padding:28px 16px}
+  .si:nth-child(odd){border-right:1px solid rgba(255,255,255,.1)}
+  .si:last-child{border-bottom:none}
+  .sn{font-size:34px}
+  .sl{font-size:12px}
+
+  /* SERVICES */
+  .sg{grid-template-columns:1fr;gap:20px}
+  .stitle{font-size:clamp(24px,6vw,34px)}
+  .ssub{font-size:15px}
+
+  /* ABOUT */
+  .ain{grid-template-columns:1fr;gap:32px}
+  .aimg{max-width:100%}
+  .aimm{height:260px}
+  .aexp{bottom:16px;right:8px;padding:14px 18px}
+  .aexp strong{font-size:36px}
+  .acrt{top:16px;right:8px}
+
+  /* WHY */
+  .wyin{grid-template-columns:1fr;gap:40px}
+  .wygr{grid-template-columns:1fr 1fr;gap:14px}
+  .wyst{gap:20px}
+  .wyst strong{font-size:28px}
+
+  /* PROCESS */
+  .prs{grid-template-columns:1fr 1fr;gap:32px}
+  .prs::before{display:none}
+  .prn{width:72px;height:72px}
+  .prn i{font-size:22px}
+  .prt{font-size:16px}
+
+  /* PESTS */
+  .pgr{grid-template-columns:repeat(3,1fr);gap:12px}
+  .pi{padding:20px 10px}
+  .pi i{font-size:26px;margin-bottom:8px}
+  .pi span{font-size:12px}
+
+  /* CTA */
+  .ctain p{font-size:15px}
+  .ctabt{flex-direction:column;align-items:center;gap:12px}
+  .ctabt .btn{width:100%;max-width:300px;justify-content:center}
+  #cta{background-attachment:scroll}
+
+  /* TESTIMONIALS */
+  .tgr{grid-template-columns:1fr;gap:20px}
+  .tcard{padding:24px 20px}
+  .ttxt{font-size:14px}
+
+  /* BLOG */
+  .bgr{grid-template-columns:1fr;gap:20px}
+  .bbody{padding:20px 22px 24px}
+
+  /* CONTACT */
+  .cin{grid-template-columns:1fr;gap:36px}
+  .cfbox{padding:28px 22px}
+  .fr{grid-template-columns:1fr}
+
+  /* FOOTER */
+  .fgr{grid-template-columns:1fr;gap:28px;padding-bottom:36px}
+  .fbr p{max-width:100%}
+  .fbot{flex-direction:column;align-items:center;text-align:center;gap:10px;padding:18px 0}
+  .fbls{gap:16px;flex-wrap:wrap;justify-content:center}
+  #footer{padding-top:56px}
+
+  /* FABs */
+  #fab{bottom:20px;right:16px;gap:10px}
+  .fab{width:48px;height:48px;font-size:20px}
+}
+
+/* ---------- 600px — Small mobile ---------- */
+@media(max-width:600px){
+  .sp{padding:52px 0}
+
+  /* HERO */
+  .hcont{padding:80px 0 44px}
+  .htit{font-size:clamp(26px,9vw,38px)}
+  .hdesc{font-size:13.5px}
+  .hbtns{flex-direction:column;gap:10px}
+  .hbtns .btn{width:100%;justify-content:center}
+
+  /* SERVICES */
+  .siw{height:200px}
+  .sbody{padding:20px 20px 24px}
+
+  /* PESTS */
+  .pgr{grid-template-columns:repeat(2,1fr);gap:10px}
+
+  /* WHY */
+  .wygr{grid-template-columns:1fr}
+
+  /* PROCESS */
+  .prs{grid-template-columns:1fr}
+  .pr{padding:0}
+
+  /* ABOUT badge */
+  .aexp{position:static;margin-top:12px;display:inline-block;text-align:center}
+  .acrt{position:static;margin-top:8px;display:inline-flex}
+
+  /* CONTACT form */
+  .cfbox{padding:22px 16px}
+  .fg input,.fg select,.fg textarea{font-size:16px}/* prevent iOS zoom */
+
+  /* FOOTER */
+  .fgr{gap:24px}
+  .fdev{font-size:12px;padding:12px 16px}
+
+  /* BADGE */
+  #dev-badge{bottom:260px;right:8px;left:auto;}
+}
+
+/* ---------- 480px — Extra small ---------- */
+@media(max-width:480px){
+  .container{padding:0 14px}
+  .ni{padding:0 14px}
+  .sp{padding:44px 0}
+
+  /* EMERGENCY BAR */
+  .embar{font-size:11.5px;padding:7px 12px}
+
+  /* HERO */
+  .htit{font-size:clamp(24px,10vw,34px)}
+  .htag{font-size:10px;padding:6px 12px}
+  .htr{flex-direction:column;align-items:flex-start;gap:10px}
+
+  /* STATS */
+  .sti{grid-template-columns:1fr 1fr}
+  .si{padding:24px 12px}
+  .sn{font-size:30px}
+
+  /* SERVICES */
+  .stit{font-size:18px}
+  .sde{font-size:13px}
+
+  /* PESTS */
+  .pgr{grid-template-columns:repeat(2,1fr)}
+  .pi{padding:16px 8px}
+  .pi i{font-size:24px}
+
+  /* TESTIMONIALS */
+  .tau{flex-wrap:wrap}
+  .trb{margin-left:0;margin-top:8px}
+
+  /* FOOTER */
+  .fbls{flex-direction:column;align-items:center;gap:8px}
+  .fbot p{font-size:12px}
+  .fsc{width:34px;height:34px;font-size:13px}
+  .fsoc{gap:8px}
+
+  /* NAV logo */
+  .logo-t{font-size:16px}
+  .logo-s{display:none}
+
+  /* Badge */
+  #dev-badge{
+    font-size:10.5px;
+    padding:6px 11px 6px 9px;
+    bottom:250px;
+    right:8px;
+    left:auto;
+  }
+
+  /* Buttons */
+  .btn{font-size:13.5px;padding:12px 22px}
+}
+
+/* ---------- 360px — Very small phones ---------- */
+@media(max-width:360px){
+  .container{padding:0 12px}
+  .ni{padding:0 12px}
+  .htit{font-size:24px}
+  .stitle{font-size:22px}
+  .ssub{font-size:14px}
+  .pgr{grid-template-columns:1fr 1fr}
+  .wygr{grid-template-columns:1fr}
+  .sti{grid-template-columns:1fr 1fr}
+  .tcard{padding:20px 16px}
+  .cfbox{padding:18px 14px}
+  .btn{font-size:13px;padding:11px 18px}
+}
+
+/* =====================================================
+   STICKY MOBILE CALL BAR (bottom, appears on scroll)
+   ===================================================== */
+#mob-callbar{
+  display:none;
+  position:fixed;
+  bottom:0;left:0;right:0;
+  z-index:8990;
+  background:var(--green);
+  padding:0;
+  grid-template-columns:1fr 1fr;
+  box-shadow:0 -4px 20px rgba(0,0,0,.22);
+}
+#mob-callbar a{
+  display:flex;align-items:center;justify-content:center;
+  gap:8px;
+  padding:14px 10px;
+  color:#fff;
+  font-family:'Poppins',sans-serif;
+  font-weight:700;
+  font-size:14px;
+  text-decoration:none;
+  transition:background .2s;
+}
+#mob-callbar a:first-child{
+  background:var(--green);
+  border-right:1px solid rgba(255,255,255,.25);
+}
+#mob-callbar a:last-child{background:#25d366}
+#mob-callbar a:first-child:hover{background:var(--green-dark)}
+#mob-callbar a:last-child:hover{background:#1da851}
+@media(max-width:768px){
+  #mob-callbar{display:grid}
+  /* push FABs above the bar */
+  #fab{bottom:76px}
+  #dev-badge{bottom:320px;right:12px;left:auto}
+  /* give footer some bottom breathing room */
+  #footer{padding-bottom:72px}
+}
+@media(max-width:480px){
+  #mob-callbar a{font-size:13px;padding:13px 8px}
+  #mob-callbar a i{font-size:16px}
+  #fab{bottom:74px}
+  #dev-badge{bottom:305px;right:10px;left:auto}
+}
+
+
+/* DESIGNER CREDIT */
+.fdev{
+  text-align:center;
+  padding:14px 20px;
+  border-top:1px solid rgba(255,255,255,.08);
+  margin-top:12px;
+  font-size:13px;
+  color:rgba(255,255,255,.55);
+  letter-spacing:.3px;
+}
+.fdev-link{
+  color:#6dd67c;
+  font-weight:700;
+  text-decoration:none;
+  transition:color .2s,text-shadow .2s;
+}
+.fdev-link:hover{
+  color:#fff;
+  text-shadow:0 0 10px rgba(109,214,124,.6);
+  text-decoration:underline;
+}
+
+/* FIXED DEV BADGE */
+#dev-badge{
+  position:fixed;
+  bottom:290px;
+  right:14px;
+  left:auto;
+  z-index:9000;
+  display:flex;
+  align-items:center;
+  gap:7px;
+  background:rgba(15,20,30,.82);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  border:1px solid rgba(109,214,124,.3);
+  border-radius:50px;
+  padding:7px 14px 7px 11px;
+  text-decoration:none;
+  color:rgba(255,255,255,.75);
+  font-size:11.5px;
+  font-family:'Poppins',sans-serif;
+  font-weight:500;
+  letter-spacing:.2px;
+  box-shadow:0 4px 20px rgba(0,0,0,.35);
+  transition:background .25s,border-color .25s,color .25s,transform .25s,box-shadow .25s;
+}
+#dev-badge i{
+  font-size:12px;
+  color:#6dd67c;
+  transition:color .25s;
+}
+#dev-badge strong{
+  color:#6dd67c;
+  font-weight:700;
+  transition:color .25s;
+}
+#dev-badge:hover{
+  background:rgba(45,140,60,.92);
+  border-color:rgba(109,214,124,.7);
+  color:#fff;
+  transform:translateY(-2px);
+  box-shadow:0 8px 28px rgba(45,140,60,.4);
+}
+#dev-badge:hover i,
+#dev-badge:hover strong{
+  color:#fff;
+}
+@media(max-width:480px){
+  #dev-badge{
+    font-size:10.5px;
+    padding:6px 11px 6px 9px;
+    bottom:80px;
+    left:12px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="embar">
+  <i class="fa-solid fa-circle-exclamation"></i>
+  Emergency Pest Control Available!
+  <a href="tel:9501454476">&nbsp;Call Now: 9501454476, 09041683595</a>
+</div>
+
+<div id="topbar">
+  <div class="container tbi">
+    <div class="tbl">
+      <span><i class="fa-solid fa-location-dot"></i> Service Areas: Punjab • Haryana • Chandigarh • Himachal Pradesh</span>
+      <span><i class="fa-regular fa-clock"></i> Daily | Mon-Thu: 8am-10pm, Fri-Sat: 7am-10pm, Sun: 8am-11:30pm</span>
+    </div>
+    <div class="tbr">
+      <a href="mailto:purankumar.soni@gmail.com"><i class="fa-regular fa-envelope"></i> purankumar.soni@gmail.com</a>
+      <a href="https://maps.app.goo.gl/JEggvme1KpHyfggQ6" target="_blank" title="Find us on Google"><i class="fa-solid fa-map-location-dot"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+</div>
+
+<nav id="nav">
+  <div class="ni">
+    <a href="#" class="logo">
+      <img src="logo.png" alt="Soni Pest Control" style="height: 50px;">
+    </a>
+    <ul class="nm">
+      <li><a href="#hero" class="nl">Home</a></li>
+      <li><a href="#services" class="nl">Services</a></li>
+      <li><a href="#about" class="nl">About</a></li>
+      <li><a href="#process" class="nl">How It Works</a></li>
+      <li><a href="#blog" class="nl">Blog</a></li>
+      <li><a href="#contact" class="nl">Contact</a></li>
+    </ul>
+    <div class="nct">
+      <a href="tel:9501454476" class="nph"><i class="fa-solid fa-phone"></i> 9501454476</a>
+      <a href="#contact" class="btn btn-g" style="padding:11px 24px;font-size:14px;">Free Inspection</a>
+    </div>
+    <button class="hbg" id="hbg" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div id="ov"></div>
+<div id="mm">
+  <button class="mc" id="mc"><i class="fa-solid fa-xmark"></i></button>
+  <a href="#hero" class="ml">Home</a>
+  <a href="#services" class="ml">Services</a>
+  <a href="#about" class="ml">About Us</a>
+  <a href="#process" class="ml">How It Works</a>
+  <a href="#pests" class="ml">Pests We Treat</a>
+  <a href="#blog" class="ml">Blog</a>
+  <a href="#contact" class="ml">Contact</a>
+  <a href="tel:9501454476" class="btn btn-g" style="margin-top:28px;justify-content:center;width:100%;"><i class="fa-solid fa-phone"></i> Call Now</a>
+</div>
+
+<section id="hero">
+  <div class="hbg-img"></div>
+  <div class="hpat"></div>
+  <div class="part" style="width:300px;height:300px;background:rgba(45,140,60,1);top:10%;left:-8%;animation-duration:18s"></div>
+  <div class="part" style="width:180px;height:180px;background:rgba(246,130,31,1);top:60%;right:-5%;animation-duration:24s"></div>
+  <div class="container hcont">
+    <div class="hin">
+      <div>
+        <div class="htag rv"><span class="dot"></span> Certified &amp; Licensed Experts</div>
+        <h1 class="htit rv">Your Home Deserves<br><span class="gr">Pest-Free</span><br><span class="ac">Protection!</span></h1>
+        <p class="hdesc rv">Soni Pest Control delivers safe, fast &amp; guaranteed pest control solutions across Panchkula and Haryana. From termites to rodents &mdash; we eliminate them all with eco-friendly treatments.</p>
+        <div class="hbtns rv">
+          <a href="#contact" class="btn btn-or"><i class="fa-solid fa-calendar-check"></i> Book Free Inspection</a>
+          <a href="tel:9501454476" class="btn btn-ow"><i class="fa-solid fa-phone-volume"></i> Call 9501454476</a>
+        </div>
+        <div class="htr rv">
+          <div class="htr-i"><i class="fa-solid fa-shield-halved"></i> 100% Guaranteed</div>
+          <div class="htr-i"><i class="fa-solid fa-leaf"></i> Eco-Friendly</div>
+          <div class="htr-i"><i class="fa-solid fa-medal"></i> Licensed &amp; Insured</div>
+        </div>
+      </div>
+      <div class="rvr">
+        <div class="himgbox">
+          <img src="hero_pest_control.png" alt="Soni Pest Control technician treating a home"/>
+          <div class="hbadge">
+            <div class="hbadge-ic"><i class="fa-solid fa-star"></i></div>
+            <div class="hbadge-t"><strong>5000+</strong><span>Happy Clients</span></div>
+          </div>
+          <div class="hbadge2"><strong>4.9&#9733;</strong><span>Google Rating</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stats">
+  <div class="sti">
+    <div class="si rv"><div class="sn"><span class="counter" data-t="5000">0</span><span class="kk">+</span></div><div class="sl">Projects Completed</div></div>
+    <div class="si rv"><div class="sn"><span class="counter" data-t="17">0</span><span class="pl">+</span></div><div class="sl">Years of Experience</div></div>
+    <div class="si rv"><div class="sn"><span class="counter" data-t="98">0</span><span class="pl">%</span></div><div class="sl">Customer Satisfaction</div></div>
+    <div class="si rv"><div class="sn"><span class="counter" data-t="24">0</span><span class="pl">/7</span></div><div class="sl">Emergency Support</div></div>
+  </div>
+</section>
+
+<section id="services" class="sp">
+  <div class="container">
+    <div class="tc rv">
+      <div class="badge">What We Do</div>
+      <h2 class="stitle">Our <span>Pest Control</span> Services</h2>
+      <p class="ssub">Comprehensive treatment plans tailored for residential and commercial spaces &mdash; every pest, every property.</p>
+    </div>
+    <div class="sg">
+      <div class="sc rv"><div class="siw"><img src="pest_termite_service.png" alt="Termite treatment" class="sim"/><div class="sov"></div><span class="scat">Residential</span></div><div class="sbody"><div class="sico"><i class="fa-solid fa-bug"></i></div><h3 class="stit">Termite Control</h3><p class="sde">Anti-termite pre &amp; post-construction treatments that protect your structure for years. Chemical barrier and baiting systems available.</p><a href="#contact" class="slk">Book Now <i class="fa-solid fa-arrow-right-long"></i></a></div></div>
+      <div class="sc rv"><div class="siw"><img src="pest_rodent_service.png" alt="Rodent control" class="sim"/><div class="sov"></div><span class="scat">Residential</span></div><div class="sbody"><div class="sico"><i class="fa-solid fa-paw"></i></div><h3 class="stit">Rodent Control</h3><p class="sde">Comprehensive rodent inspection, trapping, exclusion and sanitization services to keep mice and rats out permanently.</p><a href="#contact" class="slk">Book Now <i class="fa-solid fa-arrow-right-long"></i></a></div></div>
+      <div class="sc rv"><div class="siw"><img src="pest_cockroach_service.png" alt="Cockroach treatment" class="sim"/><div class="sov"></div><span class="scat">Commercial</span></div><div class="sbody"><div class="sico"><i class="fa-solid fa-microscope"></i></div><h3 class="stit">Cockroach Treatment</h3><p class="sde">Gel-based and spray treatments that eliminate cockroach infestations at the source. Safe for food-preparation areas.</p><a href="#contact" class="slk">Book Now <i class="fa-solid fa-arrow-right-long"></i></a></div></div>
+      <div class="sc rv"><div class="siw"><img src="pest_bedbug_service.png" alt="Bed bug removal service" class="sim"/><div class="sov"></div><span class="scat">Residential</span></div><div class="sbody"><div class="sico"><i class="fa-solid fa-bed"></i></div><h3 class="stit">Bed Bug Removal</h3><p class="sde">Heat treatment and residual chemical treatments that eradicate bed bugs completely from mattresses, furniture, and wall crevices.</p><a href="#contact" class="slk">Book Now <i class="fa-solid fa-arrow-right-long"></i></a></div></div>
+      <div class="sc rv"><div class="siw"><img src="https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&w=600&h=400&q=80" alt="Mosquito control service" class="sim" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=600&h=400&q=80'"/><div class="sov"></div><span class="scat">Outdoor</span></div><div class="sbody"><div class="sico"><i class="fa-solid fa-wind"></i></div><h3 class="stit">Mosquito Control</h3><p class="sde">Eco-friendly larvacide treatments, misting, and source reduction strategies to eliminate mosquito breeding grounds around your home.</p><a href="#contact" class="slk">Book Now <i class="fa-solid fa-arrow-right-long"></i></a></div></div>
+      <div class="sc rv"><div class="siw"><img src="hero_pest_control.png" alt="General pest management" class="sim"/><div class="sov"></div><span class="scat">Commercial</span></div><div class="sbody"><div class="sico"><i class="fa-solid fa-shield-halved"></i></div><h3 class="stit">General Pest Management</h3><p class="sde">Annual maintenance contracts for offices, restaurants, hotels and warehouses. Ants, flies, silverfish, spiders, and more.</p><a href="#contact" class="slk">Book Now <i class="fa-solid fa-arrow-right-long"></i></a></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="sp">
+  <div class="container">
+    <div class="ain">
+      <div class="aimg rvl">
+        <img src="about_pest_team.png" alt="Soni Pest Control professional pest control team" class="aimm"/>
+        <div class="aexp"><strong>17+</strong><span>Years of Experience</span></div>
+        <div class="acrt"><i class="fa-solid fa-certificate"></i><div class="acrt-t"><strong>ISO Certified</strong><span>Licensed &amp; Insured</span></div></div>
+      </div>
+      <div class="rvr">
+        <div class="badge">About Soni Pest Control</div>
+        <h2 class="stitle">Panchkula's Most <span>Trusted</span> Pest Control Partner</h2>
+        <p style="color:var(--text-light);margin-bottom:12px;line-height:1.8;">Under the leadership of Puran Kumar, Soni Pest Control has grown to become one of Haryana's most reliable pest management companies. We combine decades of expertise with eco-friendly treatments to deliver lasting results.</p>
+        <p style="color:var(--text-light);margin-bottom:28px;line-height:1.8;">Our certified technicians undergo rigorous training, and every service is backed by a satisfaction guarantee. We've protected over <strong>5,000+</strong> homes and businesses across Panchkula and surrounding regions.</p>
+        <div class="aft">
+          <div class="afi"><div class="afic"><i class="fa-solid fa-leaf"></i></div><div class="aft-t"><h4>Eco-Friendly Treatments</h4><p>WHO-approved, child &amp; pet-safe chemicals that protect your family and the environment.</p></div></div>
+          <div class="afi"><div class="afic"><i class="fa-solid fa-user-tie"></i></div><div class="aft-t"><h4>Certified Technicians</h4><p>All our professionals are certified and undergo regular skill upgradation training.</p></div></div>
+          <div class="afi"><div class="afic"><i class="fa-solid fa-file-contract"></i></div><div class="aft-t"><h4>Written Guarantee</h4><p>We back every service with a written warranty and free re-treatment if pests return.</p></div></div>
+        </div>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;">
+          <a href="#contact" class="btn btn-g"><i class="fa-solid fa-calendar-check"></i> Get Free Inspection</a>
+          <a href="#why" class="btn btn-og"><i class="fa-solid fa-circle-info"></i> Why Choose Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="why" class="sp">
+  <div class="container">
+    <div class="wyin">
+      <div class="rvl">
+        <div class="badge" style="background:rgba(45,140,60,.2);color:#6dd67c;">Why Choose Us</div>
+        <h2 class="stitle" style="color:#fff;">Reasons to Trust <span style="color:#6dd67c;">Soni Pest Control</span></h2>
+        <p class="ssub" style="color:rgba(255,255,255,.6);">We don't just eliminate pests &mdash; we prevent them from coming back. Here's what sets us apart.</p>
+        <div class="wyst">
+          <div><strong>5000+</strong><span>Clients Served</span></div>
+          <div><strong>Panchkula</strong><span>&amp; Tri-City</span></div>
+          <div><strong>98%</strong><span>Success Rate</span></div>
+        </div>
+        <div style="margin-top:36px;"><a href="#contact" class="btn btn-g"><i class="fa-solid fa-shield-halved"></i> Start Protection Now</a></div>
+      </div>
+      <div class="wygr rvr">
+        <div class="wyc"><div class="wcn">01</div><i class="fa-solid fa-bolt-lightning"></i><h4>Same-Day Service</h4><p>Book before noon and get your inspection or treatment scheduled for the same day.</p></div>
+        <div class="wyc"><div class="wcn">02</div><i class="fa-solid fa-shield-halved"></i><h4>100% Guaranteed</h4><p>If pests return within the guarantee period, we come back and re-treat at no extra cost.</p></div>
+        <div class="wyc"><div class="wcn">03</div><i class="fa-solid fa-leaf"></i><h4>Eco-Safe Chemicals</h4><p>All products are WHO-approved, odourless, and safe for children, pets, and plants.</p></div>
+        <div class="wyc"><div class="wcn">04</div><i class="fa-solid fa-indian-rupee-sign"></i><h4>Transparent Pricing</h4><p>No hidden costs. You get a detailed quote upfront before any work begins.</p></div>
+        <div class="wyc"><div class="wcn">05</div><i class="fa-solid fa-headset"></i><h4>24/7 Support</h4><p>Our customer care team is available round-the-clock for emergencies and queries.</p></div>
+        <div class="wyc"><div class="wcn">06</div><i class="fa-solid fa-award"></i><h4>PCAI Certified</h4><p>All technicians hold active PCAI certifications and undergo annual refresher training.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="sp">
+  <div class="container">
+    <div class="tc rv">
+      <div class="badge">How It Works</div>
+      <h2 class="stitle">Our Simple <span>4-Step</span> Process</h2>
+      <p class="ssub">Getting rid of pests has never been easier. From booking to treatment &mdash; we handle everything.</p>
+    </div>
+    <div class="prs">
+      <div class="pr rv"><div class="prnw"><div class="prn"><i class="fa-solid fa-phone-volume"></i></div></div><div class="prl">Step 01</div><h3 class="prt">Book Online or Call</h3><p class="prd">Fill our quick form or call us. Describe your pest problem and we'll recommend the right service.</p></div>
+      <div class="pr rv"><div class="prnw"><div class="prn"><i class="fa-solid fa-magnifying-glass"></i></div></div><div class="prl">Step 02</div><h3 class="prt">Free Inspection</h3><p class="prd">Our certified technician visits your property, identifies the pest type, severity, and entry points.</p></div>
+      <div class="pr rv"><div class="prnw"><div class="prn"><i class="fa-solid fa-spray-can-sparkles"></i></div></div><div class="prl">Step 03</div><h3 class="prt">Custom Treatment</h3><p class="prd">We apply the safest, most effective treatment tailored to your specific pest problem and property.</p></div>
+      <div class="pr rv"><div class="prnw"><div class="prn"><i class="fa-solid fa-shield-halved"></i></div></div><div class="prl">Step 04</div><h3 class="prt">Follow-Up &amp; Warranty</h3><p class="prd">We follow up after treatment and provide a written warranty. Pest-free is our guarantee.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="pests" class="sp">
+  <div class="container">
+    <div class="tc rv">
+      <div class="badge">Pest Library</div>
+      <h2 class="stitle">Pests We <span>Eliminate</span></h2>
+      <p class="ssub">No matter the pest, we have the right treatment. Click any pest to learn more.</p>
+    </div>
+    <div class="pgr">
+      <div class="pi rv"><i class="fa-solid fa-bug"></i><span>Termites</span></div>
+      <div class="pi rv"><i class="fa-solid fa-paw"></i><span>Rats &amp; Mice</span></div>
+      <div class="pi rv"><i class="fa-solid fa-circle-dot"></i><span>Cockroaches</span></div>
+      <div class="pi rv"><i class="fa-solid fa-bed"></i><span>Bed Bugs</span></div>
+      <div class="pi rv"><i class="fa-solid fa-wind"></i><span>Mosquitoes</span></div>
+      <div class="pi rv"><i class="fa-solid fa-star-of-life"></i><span>Ants</span></div>
+      <div class="pi rv"><i class="fa-solid fa-spider"></i><span>Spiders</span></div>
+      <div class="pi rv"><i class="fa-solid fa-feather"></i><span>Flies</span></div>
+      <div class="pi rv"><i class="fa-solid fa-fish"></i><span>Silverfish</span></div>
+      <div class="pi rv"><i class="fa-solid fa-crow"></i><span>Birds</span></div>
+      <div class="pi rv"><i class="fa-solid fa-worm"></i><span>Fleas &amp; Ticks</span></div>
+      <div class="pi rv"><i class="fa-solid fa-biohazard"></i><span>Wasps &amp; Bees</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="cta" class="sp">
+  <div class="container ctain">
+    <div class="badge badge-or rv">Limited Time Offer</div>
+    <h2 class="rv">Get Your Home <span>Pest-Free</span> Today!<br>First Treatment at <span>20% OFF</span></h2>
+    <p class="rv">Don't let pests take over your home. Book a free inspection now and get an instant discount on your first treatment.</p>
+    <div class="ctabt rv">
+      <a href="#contact" class="btn btn-or" style="font-size:16px;padding:16px 38px;"><i class="fa-solid fa-calendar-check"></i> Book Free Inspection</a>
+      <a href="tel:9501454476" class="btn btn-ow" style="font-size:16px;padding:16px 38px;"><i class="fa-solid fa-phone-volume"></i> Call Now</a>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="sp">
+  <div class="container">
+    <div class="tc rv">
+      <div class="badge">Client Reviews</div>
+      <h2 class="stitle">What Our <span>Happy Clients</span> Say</h2>
+      <p class="ssub">Hear from thousands of satisfied homeowners and businesses.</p>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:center;gap:24px;margin:32px 0 48px;flex-wrap:wrap;">
+      <a href="https://maps.app.goo.gl/JEggvme1KpHyfggQ6" target="_blank" style="display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--border);border-radius:50px;padding:12px 24px;box-shadow:var(--shadow);cursor:pointer;transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        <i class="fa-brands fa-google" style="font-size:22px;color:#4285f4;"></i>
+        <span style="font-family:'Poppins',sans-serif;font-weight:800;font-size:18px;color:var(--dark);">4.9/5</span>
+        <span style="color:#fbbf24;margin:0 4px;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span style="font-size:13px;color:var(--text-light);">View on Google Maps</span>
+      </a>
+      <div style="display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--border);border-radius:50px;padding:12px 24px;box-shadow:var(--shadow);">
+        <i class="fa-solid fa-award" style="font-size:22px;color:var(--orange);"></i>
+        <span style="font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;color:var(--dark);">Panchkula's Trusted Pest Experts</span>
+      </div>
+    </div>
+    <div class="tgr">
+      <div class="tcard rv"><div class="tst"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p class="ttxt">"Soni Pest Control completely solved our severe termite problem. The technician was professional, thorough, and the treatment was odourless. Two years later and not a single termite. Highly recommended!"</p><div class="tau"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Rajesh Sharma" class="tav"/><div class="tnm"><strong>Rajesh Sharma</strong><span>Homeowner, Panchkula</span></div><div class="trb"><strong>5.0</strong><span>Rating</span></div></div></div>
+      <div class="tcard rv"><div class="tst"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p class="ttxt">"We had a massive cockroach problem in our restaurant kitchen. Soni Pest Control's team handled it discreetly, quickly, and effectively. We've been pest-free for over a year now. Amazing service!"</p><div class="tau"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80" alt="Priya Nair" class="tav"/><div class="tnm"><strong>Priya Nair</strong><span>Restaurant Owner, Panchkula</span></div><div class="trb"><strong>5.0</strong><span>Rating</span></div></div></div>
+      <div class="tcard rv"><div class="tst"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i></div><p class="ttxt">"Excellent service for our office building's rodent issue. Same-day inspection, detailed report, treatment done the next morning. Staff is courteous and pricing is transparent. Will use again!"</p><div class="tau"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80" alt="Amit Kulkarni" class="tav"/><div class="tnm"><strong>Amit Kulkarni</strong><span>Facility Manager, Panchkula</span></div><div class="trb"><strong>4.8</strong><span>Rating</span></div></div></div>
+      <div class="tcard rv"><div class="tst"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p class="ttxt">"We tried two other services before Soni Pest Control and nothing worked. Their bed bug treatment was a game-changer. Every single bug is gone. The technicians were knowledgeable and kind."</p><div class="tau"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150&q=80" alt="Sunita Mehta" class="tav"/><div class="tnm"><strong>Sunita Mehta</strong><span>Homeowner, Panchkula</span></div><div class="trb"><strong>5.0</strong><span>Rating</span></div></div></div>
+      <div class="tcard rv"><div class="tst"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p class="ttxt">"Booked their annual maintenance contract for our warehouse. Monthly visits, detailed log, proactive pest management. Zero incidents in 18 months. Great ROI for any business!"</p><div class="tau"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80" alt="Vikas Agarwal" class="tav"/><div class="tnm"><strong>Vikas Agarwal</strong><span>Warehouse Manager, Panchkula</span></div><div class="trb"><strong>5.0</strong><span>Rating</span></div></div></div>
+      <div class="tcard rv"><div class="tst"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p class="ttxt">"Fantastic mosquito fogging for our housing society. The team was punctual, wore protective gear, and covered every corner. Mosquito bites are down by 95%. Highly professional!"</p><div class="tau"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80" alt="Kavitha Reddy" class="tav"/><div class="tnm"><strong>Kavitha Reddy</strong><span>Society Secretary, Panchkula</span></div><div class="trb"><strong>5.0</strong><span>Rating</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="blog" class="sp">
+  <div class="container">
+    <div class="tc rv">
+      <div class="badge">Pest Control Tips</div>
+      <h2 class="stitle">Latest From Our <span>Blog</span></h2>
+      <p class="ssub">Expert advice, prevention tips, and industry insights from our certified professionals.</p>
+    </div>
+    <div class="bgr">
+      <div class="bcard rv"><div class="biw"><img src="pest_termite_service.png" alt="Termite infestation warnings" class="blog-img"/><span class="btag">Termites</span></div><div class="bbody"><div class="bmeta"><span><i class="fa-regular fa-calendar"></i> July 10, 2025</span><span><i class="fa-regular fa-user"></i> Expert Team</span></div><h3 class="btit">5 Early Warning Signs of a Termite Infestation in Your Home</h3><p class="bdesc">Termites cause billions in damage each year. Learn how to spot mud tubes, hollow wood, and discarded wings before it's too late.</p><a href="#" class="blk">Read More <i class="fa-solid fa-arrow-right-long"></i></a></div></div>
+      <div class="bcard rv"><div class="biw"><img src="pest_rodent_service.png" alt="Rodent-proofing kitchen tips" class="blog-img"/><span class="btag">Rodents</span></div><div class="bbody"><div class="bmeta"><span><i class="fa-regular fa-calendar"></i> June 28, 2025</span><span><i class="fa-regular fa-user"></i> Expert Team</span></div><h3 class="btit">How to Rodent-Proof Your Kitchen: 7 Proven Strategies</h3><p class="bdesc">Rats and mice can enter through gaps as small as a coin. Discover the most effective exclusion methods and baiting strategies.</p><a href="#" class="blk">Read More <i class="fa-solid fa-arrow-right-long"></i></a></div></div>
+      <div class="bcard rv"><div class="biw"><img src="https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=600&h=400&q=80" alt="Monsoon mosquito control protection" class="blog-img" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&w=600&h=400&q=80'"/><span class="btag">Mosquitoes</span></div><div class="bbody"><div class="bmeta"><span><i class="fa-regular fa-calendar"></i> June 15, 2025</span><span><i class="fa-regular fa-user"></i> Expert Team</span></div><h3 class="btit">Monsoon Mosquito Menace: How to Protect Your Family This Season</h3><p class="bdesc">Monsoon season spikes mosquito populations dramatically. Here's how professional fogging keeps dengue &amp; malaria at bay.</p><a href="#" class="blk">Read More <i class="fa-solid fa-arrow-right-long"></i></a></div></div>
+    </div>
+    <div class="tc" style="margin-top:40px;"><a href="#" class="btn btn-og">View All Articles <i class="fa-solid fa-arrow-right-long"></i></a></div>
+  </div>
+</section>
+
+<section id="contact" class="sp" style="background:var(--off-white);">
+  <div class="container">
+    <div class="cin">
+      <div class="rvl">
+        <div class="badge">Get In Touch</div>
+        <h2 class="stitle">Book Your <span>Free Inspection</span></h2>
+        <p style="color:var(--text-light);margin-bottom:36px;line-height:1.8;">Ready to live pest-free? Fill out the form and our team will contact you within 30 minutes to schedule your free on-site inspection &mdash; no obligation, completely free!</p>
+        <div class="cdi"><div class="cdic"><i class="fa-solid fa-phone"></i></div><div class="cdt"><strong>Call / WhatsApp</strong><span>9501454476, 09041683595</span></div></div>
+        <div class="cdi"><div class="cdic"><i class="fa-regular fa-envelope"></i></div><div class="cdt"><strong>Email Us</strong><span>purankumar.soni@gmail.com</span></div></div>
+        <div class="cdi"><div class="cdic"><i class="fa-solid fa-location-dot"></i></div><div class="cdt"><strong>Office Address</strong><span>1052, Sector 25, Panchkula, Haryana – 134116, India</span></div></div>
+        <div class="cdi"><div class="cdic"><i class="fa-solid fa-map-location-dot"></i></div><div class="cdt"><strong>Service Areas</strong><span>Punjab • Haryana • Chandigarh • Himachal Pradesh</span></div></div>
+        <div class="cdi"><div class="cdic"><i class="fa-regular fa-clock"></i></div><div class="cdt"><strong>Working Hours</strong><span>Mon-Thu: 8am-10pm | Fri-Sat: 7am-10pm | Sun: 8am-11:30pm</span></div></div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;">
+          <div style="display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--border);border-radius:10px;padding:10px 16px;"><i class="fa-solid fa-shield-halved" style="color:var(--green);font-size:18px;"></i><span style="font-family:'Poppins',sans-serif;font-weight:700;font-size:12px;color:var(--dark);">Certified Experts</span></div>
+          <div style="display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--border);border-radius:10px;padding:10px 16px;"><i class="fa-solid fa-leaf" style="color:var(--green);font-size:18px;"></i><span style="font-family:'Poppins',sans-serif;font-weight:700;font-size:12px;color:var(--dark);">Eco-Friendly</span></div>
+          <div style="display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--border);border-radius:10px;padding:10px 16px;"><i class="fa-solid fa-star" style="color:#fbbf24;font-size:18px;"></i><span style="font-family:'Poppins',sans-serif;font-weight:700;font-size:12px;color:var(--dark);">4.9&#9733; Rated</span></div>
+        </div>
+      </div>
+      <div class="rvr">
+        <div class="cfbox">
+          <h4>Schedule Free Inspection</h4>
+          <p class="cp">Our team will reach out within 30 minutes!</p>
+          <form id="iForm" novalidate>
+            <div class="fr">
+              <div class="fg"><label for="fn">First Name *</label><input type="text" id="fn" placeholder="Rajesh" required/></div>
+              <div class="fg"><label for="ln">Last Name *</label><input type="text" id="ln" placeholder="Sharma" required/></div>
+            </div>
+            <div class="fg"><label for="ph">Phone Number *</label><input type="tel" id="ph" placeholder="+91 95014 54476" required/></div>
+            <div class="fg"><label for="em">Email Address</label><input type="email" id="em" placeholder="you@example.com"/></div>
+            <div class="fg"><label for="sv">Service Required *</label><select id="sv" required><option value="">-- Select a Service --</option><option>Termite Control</option><option>Rodent Control</option><option>Cockroach Treatment</option><option>Bed Bug Removal</option><option>Mosquito Control</option><option>General Pest Management</option><option>Other / Not Sure</option></select></div>
+            <div class="fg"><label for="pt">Property Type</label><select id="pt"><option value="">-- Select Type --</option><option>Apartment / Flat</option><option>Independent House / Villa</option><option>Office / Commercial</option><option>Restaurant / Hotel</option><option>Warehouse / Factory</option></select></div>
+            <div class="fg"><label for="msg">Additional Details</label><textarea id="msg" placeholder="Describe your pest problem or any special requirements..."></textarea></div>
+            <button type="submit" class="btn fsub" id="sbtn" style="background:#25d366;color:#fff;font-size:15px;letter-spacing:.2px;box-shadow:0 6px 24px rgba(37,211,102,.35);transition:background .25s,transform .25s,box-shadow .25s;" onmouseover="this.style.background='#1da851';this.style.transform='translateY(-2px)';this.style.boxShadow='0 10px 30px rgba(37,211,102,.45)'" onmouseout="this.style.background='#25d366';this.style.transform='';this.style.boxShadow='0 6px 24px rgba(37,211,102,.35)'"><i class="fa-brands fa-whatsapp" style="font-size:20px;"></i> Book Free Inspection Now</button>
+          </form>
+          <div id="fok" style="display:none;margin-top:18px;background:var(--green-pale);border:1px solid rgba(45,140,60,.2);border-radius:10px;padding:16px 20px;color:var(--green-dark);font-weight:600;font-size:14px;"><i class="fa-solid fa-circle-check" style="margin-right:8px;font-size:16px;"></i>Thank you! We've received your booking. Our team will call you within 30 minutes.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GOOGLE MAP EMBED -->
+    <div class="rv" style="margin-top:48px;border-radius:20px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,.12);position:relative;border:1px solid #dce8dc;">
+      <a href="https://maps.app.goo.gl/RXjnBpV8UZLUXjJXA" target="_blank" rel="noopener noreferrer"
+         style="position:absolute;top:14px;left:14px;z-index:10;display:inline-flex;align-items:center;gap:7px;background:#fff;color:#0f1a0f;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;padding:8px 16px;border-radius:50px;box-shadow:0 4px 16px rgba(0,0,0,.18);text-decoration:none;"
+         onmouseover="this.style.background='#2d8c3c';this.style.color='#fff'"
+         onmouseout="this.style.background='#fff';this.style.color='#0f1a0f'">
+        <i class="fa-solid fa-map-location-dot" style="color:#2d8c3c;font-size:15px;"></i>
+        Open in Maps &#8599;
+      </a>
+      <iframe
+        src="https://maps.google.com/maps?q=30.6969,76.8560&z=16&output=embed"
+        width="100%"
+        height="340"
+        style="border:0;display:block;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Soni Pest Control - Sector 25, Panchkula">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="fgr">
+      <div class="fbr">
+        <div class="logo">
+          <img src="logo.png" alt="Soni Pest Control Logo" style="height: 60px;">
+        </div>
+        <p>Panchkula's trusted pest management partner. Safe, effective, and guaranteed pest control for homes and businesses under the leadership of Puran Kumar.</p>
+        <div class="fsoc">
+          <a href="#" class="fsc"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="fsc"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="fsc"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="fsc"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" class="fsc"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="fcol">
+        <h5>Our Services</h5>
+        <ul class="flks">
+          <li><a href="#services">Termite Control</a></li>
+          <li><a href="#services">Rodent Control</a></li>
+          <li><a href="#services">Cockroach Treatment</a></li>
+          <li><a href="#services">Bed Bug Removal</a></li>
+          <li><a href="#services">Mosquito Control</a></li>
+          <li><a href="#services">General Pest Management</a></li>
+        </ul>
+      </div>
+      <div class="fcol">
+        <h5>Quick Links</h5>
+        <ul class="flks">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Get a Quote</a></li>
+        </ul>
+      </div>
+      <div class="fcol">
+        <h5>Contact Us</h5>
+        <div class="fci"><i class="fa-solid fa-phone"></i><span>9501454476, 09041683595</span></div>
+        <div class="fci"><i class="fa-regular fa-envelope"></i><span>purankumar.soni@gmail.com</span></div>
+        <div class="fci"><i class="fa-solid fa-location-dot"></i><span>1052, Sector 25, Panchkula,<br>Haryana – 134116, India</span></div>
+        <div class="fci"><i class="fa-solid fa-map-location-dot"></i><span>Service Areas:<br>Punjab • Haryana • Chandigarh • Himachal Pradesh</span></div>
+        <div class="fci"><i class="fa-brands fa-whatsapp"></i><span><a href="https://wa.me/919501454476" target="_blank" style="color:inherit;text-decoration:underline;">Chat on WhatsApp</a></span></div>
+      </div>
+    </div>
+    <div class="fbot">
+      <p>&copy; 2026 <strong style="color:#fff;">Soni Pest Control</strong>. All Rights Reserved. Crafted with care for a pest-free Panchkula.</p>
+      <div class="fbls"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Sitemap</a></div>
+    </div>
+    <div class="fdev">Designed &amp; Developed by <a href="https://truegridleaf.com" target="_blank" rel="noopener noreferrer" class="fdev-link">Truegridleaf.com</a></div>
+  </div>
+</footer>
+
+<div id="fab">
+  <a href="tel:9501454476" class="fab fab-cl" title="Call Us"><i class="fa-solid fa-phone"></i></a>
+  <a href="https://wa.me/919501454476" target="_blank" class="fab fab-wa" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <button class="fab" id="bkt" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fa-solid fa-chevron-up"></i></button>
+</div>
+
+<a href="https://truegridleaf.com" target="_blank" rel="noopener noreferrer" id="dev-badge" title="Website by Truegridleaf.com">
+  <i class="fa-solid fa-code"></i>
+  <span>Website by <strong>Truegridleaf.com</strong></span>
+</a>
+
+<script>
+const rvEls=document.querySelectorAll('.rv,.rvl,.rvr');
+const ro=new IntersectionObserver((e)=>{e.forEach((x,i)=>{if(x.isIntersecting){setTimeout(()=>x.target.classList.add('vis'),i*80);ro.unobserve(x.target);}});},{threshold:.12});
+rvEls.forEach(el=>ro.observe(el));
+document.querySelectorAll('.counter').forEach(el=>{
+  const co=new IntersectionObserver((e)=>{if(e[0].isIntersecting){const t=+el.dataset.t;let c=0;const s=t/125;const ti=setInterval(()=>{c+=s;if(c>=t){el.textContent=t;clearInterval(ti);}else{el.textContent=Math.floor(c);}},16);co.unobserve(el);}},{threshold:.5});
+  co.observe(el);
+});
+const nv=document.getElementById('nav');const bt=document.getElementById('bkt');
+window.addEventListener('scroll',()=>{nv.classList.toggle('sc',window.scrollY>50);bt.classList.toggle('sh',window.scrollY>400);});
+const hbg=document.getElementById('hbg'),mm=document.getElementById('mm'),ov=document.getElementById('ov'),mc=document.getElementById('mc');
+function ope(){hbg.classList.add('op');mm.classList.add('op');ov.classList.add('act');document.body.style.overflow='hidden';}
+function cls(){hbg.classList.remove('op');mm.classList.remove('op');ov.classList.remove('act');document.body.style.overflow='';}
+hbg.addEventListener('click',()=>mm.classList.contains('op')?cls():ope());
+mc.addEventListener('click',cls);ov.addEventListener('click',cls);
+mm.querySelectorAll('.ml,.btn').forEach(l=>l.addEventListener('click',cls));
+document.getElementById('iForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  
+  const fn = document.getElementById('fn').value.trim();
+  const ln = document.getElementById('ln').value.trim();
+  const ph = document.getElementById('ph').value.trim();
+  const em = document.getElementById('em').value.trim() || 'Not Provided';
+  const sv = document.getElementById('sv').value;
+  const pt = document.getElementById('pt').value || 'Not Specified';
+  const msg = document.getElementById('msg').value.trim() || 'No additional details';
+  
+  if(!fn || !ln || !ph || !sv){
+    alert('Please fill in all required fields marked with *');
+    return;
+  }
+  
+  const sb = document.getElementById('sbtn');
+  sb.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Opening WhatsApp...';
+  sb.disabled = true;
+  
+  const waMessage = `*New Inspection Request - Soni Pest Control*\n` +
+                    `--------------------------------------\n` +
+                    `*First Name:* ${fn}\n` +
+                    `*Last Name:* ${ln}\n` +
+                    `*Phone:* ${ph}\n` +
+                    `*Email:* ${em}\n` +
+                    `*Service Required:* ${sv}\n` +
+                    `*Property Type:* ${pt}\n` +
+                    `*Additional Details:* ${msg}`;
+  
+  const waUrl = `https://wa.me/919501454476?text=${encodeURIComponent(waMessage)}`;
+  
+  setTimeout(() => {
+    window.open(waUrl, '_blank');
+    document.getElementById('fok').style.display = 'block';
+    sb.innerHTML = '<i class="fa-solid fa-calendar-check"></i> Book Free Inspection Now';
+    sb.disabled = false;
+    this.reset();
+    document.getElementById('fok').scrollIntoView({behavior: 'smooth', block: 'nearest'});
+  }, 1000);
+});
+const secs=document.querySelectorAll('section[id]');const nls=document.querySelectorAll('.nl');
+window.addEventListener('scroll',()=>{let cur='';secs.forEach(s=>{if(window.scrollY>=s.offsetTop-100)cur=s.getAttribute('id');});nls.forEach(l=>{l.classList.remove('act');if(l.getAttribute('href')==='#'+cur)l.classList.add('act');});});
+document.querySelectorAll('.pi').forEach(item=>{item.addEventListener('click',()=>{item.style.transform='scale(.95)';setTimeout(()=>item.style.transform='',150);});});
+</script>
+
+<!-- STICKY MOBILE CALL BAR — visible on mobile only via CSS -->
+<div id="mob-callbar">
+  <a href="tel:9501454476" id="mob-call-btn">
+    <i class="fa-solid fa-phone"></i> Call Now
+  </a>
+  <a href="https://wa.me/919501454476" target="_blank" rel="noopener noreferrer" id="mob-wa-btn">
+    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+  </a>
+</div>
+
+</body>
+</html>
